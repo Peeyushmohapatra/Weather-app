@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Kalam:wght@700&display=swap');
+
+.rightInnerContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#weather_logo{
+    height: 40%;
+    width: 45%;
+    border-radius: 8px;
+}
+
+#city{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: navy;
+}
+
+.date{
+    font-size: 1.2rem;
+    color: rgb(140,125,213);
+    font-family: 'Bruno Ace', cursive;
+}
+.city{
+    font-size: 2rem;
+    color: rgb(140,125,213);
+    font-family: 'Kalam', cursive;
+}
+
+#city{
+    font-family: 'Kalam', cursive;
+    color: rgb(254,165,5);
+}

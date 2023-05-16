@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+.mainContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.mainContainer:hover{
+    background-position: center;
+}
+
+.inputContainer{
+    height: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    height: 60%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 40%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.553);
+    color: white;
+    padding-left: 20px;
+}
+.button{
+    height: 60%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.553);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    background-color: rgba(103, 101, 101, 0.749);
+}
+
+.mainHeading{
+    font-family:'Racing Sans One', cursive;
+    color: rgb(33,150,243);
+    font-size: 2.4rem;
+}
+
+.innerContainer{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    background-color: rgba(221, 225, 227, 0.441);
+}
+
+.leftContainer{
+    height: 100%;
+    width: 60%;
+    border-radius: 0 0 50% 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.365);
+    justify-content: center;
+    align-items: center;
+}   
+
+.upperContainer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+}
+
+.temp{
+    font-size: 6rem;
+    color: rgb(99,107,116);
+}
+
+.weatherCondition{
+    font-size: 4rem;
+    color:rgb(0,0,128);
+}
+.lowerContainer{
+    height: 50%;
+    width: 100%;
+    border-radius: 0% 100% 51% 49% / 100% 0% 100% 0% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.dataContainer{
+    height: 50%;
+    width: 17.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rightContainerr{
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+
+.iconIcon{
+    color: rgb(33,150,243);
+}
+
+
+.data{
+    color: rgb(0,0,128);
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+.heading{
+    color: rgb(142,133,240);
+}
+
+
+
+
